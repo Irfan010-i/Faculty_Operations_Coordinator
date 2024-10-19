@@ -33,7 +33,9 @@ Firebase Storage: For uploading and storing CSV files containing timetables.
 
 Document Picker: Used for selecting CSV files to upload.
 
+
 Leave Application Process
+
 
 Faculty Leave Application:
 
@@ -90,14 +92,18 @@ To set up the project on your local machine:
 Clone the repository:
 
 bash
+
 Copy code
 git clone https://github.com/your-repo/faculty-timetable-management.git
+
 cd faculty-timetable-management
 Install dependencies:
 
 bash
 Copy code
+
 npm install
+
 Set up Firebase:
 
 Add your Firebase project credentials in the firebaseConfig.js file located in the root of the project.
