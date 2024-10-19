@@ -1,17 +1,25 @@
 Overview
+
 The Faculty Timetable Management System is a mobile application built with React Native and Firebase, designed to manage faculty timetables and leave applications in an organized and user-friendly manner. The system allows faculty members to view their own timetables, apply for leaves, and provides admin users (HR, HOD, Principal) with the ability to manage timetables, approve or reject leave applications, and oversee overall faculty leave statuses.
 
 Key Features
+
 Faculty Timetable Upload: Allows administrators to upload CSV files containing weekly timetables for faculties. The uploaded timetables are parsed and stored in the Firestore database.
+
 Individual Faculty View: Faculties can log in to view their own weekly timetables, with the ability to select and view timetables by date.
+
 Admin Timetable View: Administrators (HR, HOD, Principal) can view timetables for all faculties. Admin users can browse faculty lists, select specific dates, and view detailed schedules.
+
 Role-Based Access: Users with specific roles (admin, faculty) have different access rights, ensuring that only authorized users can manage or view certain timetables.
+
 Leave Application and Management:
+
 Faculty members can apply for different types of leaves (Casual, Medical, Maternity, etc.).
 HODs, HR personnel, and Principals can view, approve, or reject leave requests.
 Leave types and the number of leaves allowed per year are managed and updated for each faculty member.
 A faculty member’s leave history is tracked and stored in Firestore.
 Date Filtering: Only upcoming and valid dates are displayed for timetable views, allowing users to focus on future schedules.
+
 Technology Stack
 React Native Expo: The core framework for building the mobile application.
 Firebase Firestore: For real-time storage of timetable and leave data in a structured format.
