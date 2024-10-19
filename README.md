@@ -24,11 +24,17 @@ Date Filtering: Only upcoming and valid dates are displayed for timetable views,
 Technology Stack
 
 React Native Expo: The core framework for building the mobile application.
+
 Firebase Firestore: For real-time storage of timetable and leave data in a structured format.
+
 Firebase Authentication: Handles secure user sign-in for both faculty and admin users.
+
 Firebase Storage: For uploading and storing CSV files containing timetables.
+
 Document Picker: Used for selecting CSV files to upload.
+
 Leave Application Process
+
 Faculty Leave Application:
 
 Faculty members can log in and submit leave requests, choosing from predefined leave types (Casual, Medical, Maternity).
